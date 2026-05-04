@@ -1,4 +1,4 @@
-!pip install pandas pyyaml pillow moviepy
+# !pip install pandas pyyaml pillow moviepy
 import os
 
 # Try to import optional modules
@@ -107,6 +107,6 @@ def print_tree(start_path, prefix="", max_items=3, max_lines=5):
 
 # Example usage:
 if __name__ == "__main__":
-    dataset_path = "/kaggle/input/competitions/accident"  # Change to your dataset folder
+    dataset_path = "/kaggle/input/"  # Change to your dataset folder
     print(f"Dataset structure for: {dataset_path}")
     print_tree(dataset_path)
